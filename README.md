@@ -1,0 +1,2 @@
+# PHP Foreach Loop Unexpected Modification
+This example demonstrates a common pitfall in PHP: unexpected modification of the original array when using foreach with pass-by-reference.  The `foreach` loop, when using `&$item`, modifies the original array, even if the intention was only to modify a copy.
